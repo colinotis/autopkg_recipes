@@ -7,10 +7,10 @@ Input:
   NAME: PsychoPy
   CATEGORY: Productivity
   GROUP_NAME: "%NAME%-update-smart"
-  GROUP_TEMPLATE: JamfSmartGroupTemplate.xml
+  GROUP_TEMPLATE: SmartGroupTemplate.xml
   TESTING_GROUP_NAME: Testing
   POLICY_CATEGORY: Testing
-  POLICY_TEMPLATE: JamfPolicyTemplate.xml
+  POLICY_TEMPLATE: PolicyTemplate.xml
   POLICY_NAME: "Install Latest %NAME%"
   SELF_SERVICE_DISPLAY_NAME: "Install Latest %NAME%"
   SELF_SERVICE_DESCRIPTION: PsychoPy is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences (neuroscience, psychology, psychophysics, linguistics...).
