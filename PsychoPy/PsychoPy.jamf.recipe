@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0</string>
 	<key>ParentRecipe</key>
-	<string>corg.dalton.cotis.pkg.PsychoPy</string>
+	<string>org.dalton.cotis.pkg.PsychoPy</string>
 	<key>Process</key>
 	<array>
 		<dict>
