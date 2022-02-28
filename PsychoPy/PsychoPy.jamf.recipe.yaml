@@ -1,5 +1,5 @@
 Description: Downloads the latest version and makes a pkg. Then, uploads the package to the Jamf Pro Server and creates a Self Service Policy and Smart Group.
-Identifier: org.dalton.cotis.jamf.PsychoPy
+Identifier: org.dalton.cotis.jamf_upload.PsychoPy
 MinimumVersion: "1.0"
 ParentRecipe: org.dalton.cotis.pkg.PsychoPy
 
