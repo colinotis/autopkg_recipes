@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Java 8 Update 333</string>
+		<string>Java 8 Update 341</string>
 		<key>NAME</key>
 		<string>MacJREInstaller</string>
 	</dict>
@@ -25,7 +25,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246465_2dee051a5d0647d5be72a7c0abff270e</string>
+				<string>https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246800_424b9da4b48848379167015dcc250d8d</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -38,7 +38,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%/Java 8 Update 333.app</string>
+				<string>%pathname%/Java 8 Update 341.app</string>
 				<key>requirement</key>
 				<string>identifier "Oracle.MacJREInstaller" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VB5E2TV963</string>
 			</dict>
@@ -49,7 +49,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/Java 8 Update 333.app/Contents/Info.plist</string>
+				<string>%pathname%/Java 8 Update 341.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>

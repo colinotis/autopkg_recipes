@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Java 8 Update 333</string>
+		<string>Java 8 Update 341</string>
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
@@ -52,7 +52,7 @@
 					</dict>
 				</array>
 				<key>jss_inventory_name</key>
-				<string>Java 8 Update 333</string>
+				<string>Java 8 Update 341</string>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
