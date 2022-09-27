@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from org.dalton.cotis.pkg.DigiExam by JamfRecipeMaker</string>
+	<string>Recipe automatically generated from com.github.nstrauss.pkg.AutodeskFusion360 by JamfRecipeMaker</string>
 	<key>Identifier</key>
-	<string>org.dalton.cotis.jamf.DigiExam</string>
+	<string>org.dalton.cotis.jamf.AutodeskFusion360</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>JamfSmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>DigiExam</string>
+		<string>Autodesk Fusion 360</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_NAME</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>org.dalton.cotis.pkg.DigiExam</string>
+	<string>com.github.nstrauss.pkg.AutodeskFusion360</string>
 	<key>Process</key>
 	<array>
 		<dict>
