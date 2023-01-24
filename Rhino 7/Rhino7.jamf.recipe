@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>JamfSmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>DigiExam</string>
+		<string>Rhino 7</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_NAME</key>
@@ -92,21 +92,6 @@
 			</dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
-		</dict>
-        <dict>
-			<key>Arguments</key>
-			<dict>
-				<key>patch_icon_policy_name</key>
-				<string>%POLICY_NAME%</string>
-				<key>patch_name</key>
-				<string>%PATCH_NAME%</string>
-				<key>patch_softwaretitle</key>
-				<string>%PATCH_SOFTWARE_TITLE%</string>
-				<key>patch_template</key>
-				<string>%PATCH_TEMPLATE%</string>
-			</dict>
-			<key>Processor</key>
-			<string>com.github.grahampugh.jamf-upload.processors/JamfPatchUploader</string>
 		</dict>
 	</array>
 </dict>
