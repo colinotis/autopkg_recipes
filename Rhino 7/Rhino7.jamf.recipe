@@ -31,7 +31,7 @@
 		<key>PATCH_TEMPLATE</key>
 		<string>PatchTemplate-automatic.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Online testing platform</string>
+		<string>3D modeling tool</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>SELF_SERVICE_ICON</key>
