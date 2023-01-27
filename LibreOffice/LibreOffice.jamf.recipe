@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>LibreOffice-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>JamfSmartGroupTemplateLibreOffice.xml</string>
+		<string>JamfSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>LibreOffice</string>
 		<key>POLICY_CATEGORY</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>JamfPolicyTemplateLibreOffice.xml</string>
+		<string>JamfPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Open Source personal productivity suite for Windows, Macintosh and Linux.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
