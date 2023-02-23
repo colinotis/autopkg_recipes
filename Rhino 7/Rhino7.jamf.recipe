@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Application Installs</string>
 		<key>POLICY_NAME</key>
-		<string>Install Latest %NAME%</string>
+		<string>%NAME%</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>JamfPolicyTemplate.xml</string>
         <key>PATCH_ENABLED</key>
