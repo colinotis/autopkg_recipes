@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.nstrauss.pkg.AutodeskFusion360 by JamfRecipeMaker, woot</string>
+	<string>Recipe hobbled together by angry apathetic robots.</string>
 	<key>Identifier</key>
 	<string>org.dalton.cotis.jamf.AutodeskFusion360</string>
 	<key>Input</key>
