@@ -22,6 +22,14 @@
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>JamfPolicyTemplate.xml</string>
+		<key>PATCH_ENABLED</key>
+		<string>true</string>
+		<key>PATCH_NAME</key>
+		<string>%NAME%</string>
+		<key>PATCH_SOFTWARE_TITLE</key>
+		<string>%NAME%</string>
+		<key>PATCH_TEMPLATE</key>
+		<string>PatchTemplate-automatic.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Open Source personal productivity suite for Windows, Macintosh and Linux.</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
@@ -78,7 +86,7 @@
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>replace_policy</key>
-				<string>True</string>
+				<string>False</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>

@@ -22,6 +22,14 @@
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>JamfPolicyTemplate.xml</string>
+		 <key>PATCH_ENABLED</key>
+		<string>true</string>
+		<key>PATCH_NAME</key>
+		<string>%NAME%</string>
+		<key>PATCH_SOFTWARE_TITLE</key>
+		<string>%NAME%</string>
+		<key>PATCH_TEMPLATE</key>
+		<string>PatchTemplate-automatic.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string></string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
@@ -80,10 +88,25 @@
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>replace_policy</key>
-				<string>True</string>
+				<string>False</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+		</dict>
+				<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>patch_icon_policy_name</key>
+				<string>%POLICY_NAME%</string>
+				<key>patch_name</key>
+				<string>%PATCH_NAME%</string>
+				<key>patch_softwaretitle</key>
+				<string>%PATCH_SOFTWARE_TITLE%</string>
+				<key>patch_template</key>
+				<string>%PATCH_TEMPLATE%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPatchUploader</string>
 		</dict>
 	</array>
 </dict>
