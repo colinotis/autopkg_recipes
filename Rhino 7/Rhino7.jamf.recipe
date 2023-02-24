@@ -21,7 +21,7 @@
 		<key>POLICY_NAME</key>
 		<string>%NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>JamfPolicyTemplate.xml</string>
+		<string>JamfPolicyTemplateRhino.xml</string>
         <key>PATCH_ENABLED</key>
 		<string>true</string>
 		<key>PATCH_NAME</key>
