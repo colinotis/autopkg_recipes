@@ -17,11 +17,11 @@
 		<key>NAME</key>
 		<string>DigiExam</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Patch Management - Updates</string>
+		<string>Application Installs</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>JamfPolicyTemplate.xml</string>
+		<string>JamfPolicyTemplateAllCompScope.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Online testing platform</string>
 		<key>SELF_SERVICE_DISPLAY_NAME</key>
