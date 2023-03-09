@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>DigiExam</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Application Installs</string>
+		<string>Patch Management - Updates</string>
 		<key>POLICY_NAME</key>
 		<string>Install Latest %NAME%</string>
 		<key>POLICY_TEMPLATE</key>
